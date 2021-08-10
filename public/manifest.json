@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Autocompletababob",
+    "description": "",
+    "version": "1.0",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "48.png"
+    },
+    "icons": {
+        "48": "48.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "https://unpkg.com/react@17/umd/react.development.js",
+        "https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval' https://unpkg.com; object-src 'self'"
+}
